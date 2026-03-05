@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style/main.css">
+    <link rel="icon" href="/static/resources/star-1-solid.png" type="image/png">
+    <title>Northern Zov Studio</title>
+    <script>
+        let FF_FOUC_FIX;
+    </script>
+</head>
+<body>
+    <div class="contents">
+        <div class="docholder">
+            <div class="banner bannerleft"></div>
+            <div class="banner bannerright"></div>
+            <div class="doc">
+                <div class="doccontents">
+                    <div class="header">
+                        <div class="headercontents">
+                            <a class="headertext">Northern Zov Studio</a>
+                            <img src="static/resources/mikeball_128x.png" class="headerlogo" alt="">
+                        </div>
+                    </div>
+
+                    <footer class="footer_top">
+                        <div class="footertext">
+                            <div>
+                                <a href="/" class="importantlink">homepage</a>
+                                ... <a href="#">contact</a>
+                                ... <a href="#">about</a>
+                                ... <a href="#" target="_blank">discord</a>
+                            </div>
+                            <a>&copy; 2026</a>
+                        </div>
+                    </footer>
+
+                    <div class="pagetop"></div>
+                    <div class="pagespace"></div>
+
+                    <div>
+                        <div class="badge_container hide-mobile">
+                            <a href="#" target="_blank"><img src="static/resources/mikeklubnika_badge2.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/pagerdiscord.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/email.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/steam.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/contest_buttons/juice_baby.png" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/3dot5mmfc-button.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/winrar1.gif" alt=""></a>
+                        </div>
+                        <br>
+                        <div class="badge_container hide-mobile">
+                            <a href="https://www.kira-llc.com/" target="_blank"><img src="static/resources/ButtonKira.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/cruel.jpg" alt=""></a>
+                            <a href="https://lyra.horse/" target="_blank"><img src="static/resources/horse.png" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/cg2d.jpg" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/funi_raccoon_game_tile.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/contest_buttons/raafaturki.gif" alt=""></a>
+                            <a href="#" target="_blank"><img src="static/resources/contest_buttons/ii2c.gif" alt=""></a>
+                        </div>
+                        <div class="pagespace hide-mobile"></div>
+                        <p>
+                            A young team of programmers from the Far North is developing their own games and getting ru-gamdev back on its feet. Most of the games feature detailed technology, atmospheric dystopias, fear, and other interesting elements.
+                            <br><br>
+                            Feel free to pick a game from the catalogue, and have fun! :)
+                        </p>
+                    </div>
+
+                    <div class="pagespace"></div>
+
+                    <div>
+                        <div class="lr">
+                            <h2>Catalogue</h2>
+                            <a style="align-self: top;" href="/games" class="importantlink">view all</a>
+                        </div>
+                        <div class="catalogue">
+                            <div class="cataloguetop">
+                                <div class="cataloguepreview">
+                                    <img src="static/catalogueentries/cataloguetop/prew.gif" class="cataloguepreviewimg" id="cataloguepreviewimgid" draggable="false" alt="">
+                                    <img src="static/resources/tv2_small.png" class="cataloguepreviewimgoverlay" draggable="false" alt="">
+                                    <img src="static/resources/featured_label.png" class="cataloguefeaturedlabel" id="cataloguefeaturedlabelid" draggable="false" alt="">
+                                    <img src="static/resources/screen_grunge.png" class="cataloguepreviewimgoverlaygrunge" draggable="false" alt="">
+                                    <img src="static/resources/tv_static.gif" class="loading" draggable="false" alt="">
+                                    <div class="cataloguepreviewsubtitle">
+                                        <div id="cname" style="margin-left: 3px;">VEIL</div>
+                                        <div id="cdate" style="margin-right: 3px;">1 Feb 2026</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cataloguebottom">
+                                <img class="catalogueentry" src="static/catalogueentries/gameOne/gameOne.gif"
+                                    data-name="Game One"
+                                    data-case_still="catalogueentries/gameOne/gameOne.gif"
+                                    data-preview="catalogueentries/gameOne/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameOne.html"
+                                    data-index="0"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/gameTwo/gameTwo.gif"
+                                    data-name="Game Two"
+                                    data-case_still="catalogueentries/gameTwo/gameTwo.gif"
+                                    data-preview="catalogueentries/gameTwo/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameTwo.html"
+                                    data-index="1"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game3/gameThree.gif"
+                                    data-name="Game Three"
+                                    data-case_still="catalogueentries/game3/gameThree.gif"
+                                    data-preview="catalogueentries/game3/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameThree.html"
+                                    data-index="2"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game4/gameFour.gif"
+                                    data-name="Game Four"
+                                    data-case_still="catalogueentries/game4/gameFour.gif"
+                                    data-preview="catalogueentries/game4/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameFour.html"
+                                    data-index="3"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game5/gameFive.gif"
+                                    data-name="Game Five"
+                                    data-case_still="catalogueentries/game5/gameFive.gif"
+                                    data-preview="catalogueentries/game5/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameFive.html"
+                                    data-index="4"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game6/gameSix.gif"
+                                    data-name="Game Six"
+                                    data-case_still="catalogueentries/game6/gameSix.gif"
+                                    data-preview="catalogueentries/game6/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameSix.html"
+                                    data-index="5"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game7/gameSeven.gif"
+                                    data-name="Game Seven"
+                                    data-case_still="catalogueentries/game7/gameSeven.gif"
+                                    data-preview="catalogueentries/game7/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameSeven.html"
+                                    data-index="6"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game8/gameEight.gif"
+                                    data-name="Game Eight"
+                                    data-case_still="catalogueentries/game8/gameEight.gif"
+                                    data-preview="catalogueentries/game8/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameEight.html"
+                                    data-index="7"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game9/gameNine.gif"
+                                    data-name="Game Nine"
+                                    data-case_still="catalogueentries/game9/gameNine.gif"
+                                    data-preview="catalogueentries/game9/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameNine.html"
+                                    data-index="8"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game10/gameTen.gif"
+                                    data-name="Game Ten"
+                                    data-case_still="catalogueentries/game10/gameTen.gif"
+                                    data-preview="catalogueentries/game10/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameTen.html"
+                                    data-index="9"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game11/gameEleven.gif"
+                                    data-name="Game Eleven"
+                                    data-case_still="catalogueentries/game11/gameEleven.gif"
+                                    data-preview="catalogueentries/game11/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameEleven.html"
+                                    data-index="10"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game12/gameTwelve.gif"
+                                    data-name="Game Twelve"
+                                    data-case_still="catalogueentries/game12/gameTwelve.gif"
+                                    data-preview="catalogueentries/game12/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameTwelve.html"
+                                    data-index="11"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game13/gameThirteen.gif"
+                                    data-name="Game Thirteen"
+                                    data-case_still="catalogueentries/game13/gameThirteen.gif"
+                                    data-preview="catalogueentries/game13/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameThirteen.html"
+                                    data-index="12"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game14/gameFourteen.gif"
+                                    data-name="Game Fourteen"
+                                    data-case_still="catalogueentries/game14/gameFourteen.gif"
+                                    data-preview="catalogueentries/game14/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameFourteen.html"
+                                    data-index="13"
+                                    draggable="false"
+                                    alt="">
+                                <img class="catalogueentry" src="static/catalogueentries/game15/gameFifteen.gif"
+                                    data-name="Game Fifteen"
+                                    data-case_still="catalogueentries/game15/gameFifteen.gif"
+                                    data-preview="catalogueentries/game15/preview.gif"
+                                    data-date="5 Mar 2026"
+                                    data-htmlpath="/games/gameFifteen.html"
+                                    data-index="14"
+                                    draggable="false"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="cataloguealt">
+                            <div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameOne">VEIL</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameTwo">Game Two</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameThree">Game Three</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameFour">Game Four</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameFive">Game Five</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameSix">Game Six</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameSeven">Game Seven</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameEight">Game Eight</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameNine">Game Nine</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameTen">Game Ten</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameEleven">Game Eleven</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameTwelve">Game Twelve</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameThirteen">Game Thirteen</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameFourteen">Game Fourteen</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/games/gameFifteen">Game Fifteen</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagespace"></div>
+
+                    <div>
+                        <div class="lr">
+                            <h2>Registry</h2>
+                            <a style="align-self: top;" href="/logs" class="importantlink">view all</a>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="ue uebg">
+                                    <div>[5 Mar 2026] <a class="entrytext" href="/logs/log_1">Website created</a></div>
+                                    <div class="entrytext">0 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="ue uebg">
+                                    <div>[1 Feb 2026] <a class="entrytext" href="/logs/log_1">Hospital 21 Realease</a></div>
+                                    <div class="entrytext">32 days ago</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="ue uebg">
+                                    <div>[1 Feb 2026] <a class="entrytext" href="/logs/log_1">VEIL Realease</a></div>
+                                    <div class="entrytext">32 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagespace"></div>
+
+                    <div>
+                        <div class="lr">
+                            <h2>Updates</h2>
+                            <a style="align-self: top;" href="/updates" class="importantlink">view all</a>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="ue uebg">
+                                    <div>[1 Feb 2026] <a class="entrytext" href="/updates/update_1">[Hospital 21] v1.0 Realease</a></div>
+                                    <div class="entrytext">32 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="ue uebg">
+                                    <div>[1 Feb 2026] <a class="entrytext" href="/updates/update_1">[VEIL] v1.0 Realease</a></div>
+                                    <div class="entrytext">32 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footertext">
+                    <div>
+                        <a href="/" class="importantlink">homepage</a>
+                        ... <a href="/contact">contact</a>
+                        ... <a href="/about">about</a>
+                        ... <a href="https://discord.gg/#" target="_blank">discord</a>
+                    </div>
+                    <a>Northern Zov Studio &copy; 2026</a>
+                </div>
+            </footer>
+            <div class="banner bannerleft"></div>
+            <div class="banner bannerright"></div>
+        </div>
+    </div>
+    <script src="/static/scripts/gameselect.js"></script>
+</body>
+</html>
