@@ -441,3 +441,31 @@ p{
 	top:1px;
 }
 
+.log-entry, .update-entry {
+    max-width: 600px;
+}
+
+.log-entry h1, .update-entry h1 {
+    margin-top: 0;
+}
+
+.log-date, .update-date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.log-content, .update-content {
+    color: gainsboro;
+    line-height: 1.6;
+}
+
+.log-content ul, .update-content ul {
+    color: gainsboro;
+    margin-top: 10px;
+}
+
+.log-content li, .update-content li {
+    margin-bottom: 5px;
+}
+
